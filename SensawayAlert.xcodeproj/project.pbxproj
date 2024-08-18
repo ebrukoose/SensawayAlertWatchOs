@@ -1,0 +1,1204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7208B7FA2C6A58F200517823 /* SensawayAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B7F92C6A58F200517823 /* SensawayAlertApp.swift */; };
+		7208B7FC2C6A58F200517823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B7FB2C6A58F200517823 /* ContentView.swift */; };
+		7208B7FE2C6A58F200517823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7208B7FD2C6A58F200517823 /* Assets.xcassets */; };
+		7208B8012C6A58F200517823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7208B8002C6A58F200517823 /* Preview Assets.xcassets */; };
+		7208B80B2C6A58F300517823 /* SensawayAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B80A2C6A58F300517823 /* SensawayAlertTests.swift */; };
+		7208B8152C6A58F300517823 /* SensawayAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8142C6A58F300517823 /* SensawayAlertUITests.swift */; };
+		7208B8172C6A58F300517823 /* SensawayAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8162C6A58F300517823 /* SensawayAlertUITestsLaunchTests.swift */; };
+		7208B81D2C6A58F300517823 /* SensawayAlert Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7208B81C2C6A58F300517823 /* SensawayAlert Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7208B8222C6A58F300517823 /* SensawayAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8212C6A58F300517823 /* SensawayAlertApp.swift */; };
+		7208B8242C6A58F300517823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8232C6A58F300517823 /* ContentView.swift */; };
+		7208B8262C6A58F300517823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7208B8252C6A58F300517823 /* Assets.xcassets */; };
+		7208B8292C6A58F300517823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7208B8282C6A58F300517823 /* Preview Assets.xcassets */; };
+		7208B8332C6A58F300517823 /* SensawayAlert_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8322C6A58F300517823 /* SensawayAlert_Watch_AppTests.swift */; };
+		7208B83D2C6A58F300517823 /* SensawayAlert_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B83C2C6A58F300517823 /* SensawayAlert_Watch_AppUITests.swift */; };
+		7208B83F2C6A58F300517823 /* SensawayAlert_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B83E2C6A58F300517823 /* SensawayAlert_Watch_AppUITestsLaunchTests.swift */; };
+		7208B8562C6A593C00517823 /* AlarmTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8552C6A593C00517823 /* AlarmTypes.swift */; };
+		7208B85A2C6A5A2B00517823 /* AlarmTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7208B8592C6A5A2B00517823 /* AlarmTypes.swift */; };
+		72948D642C6BA1EC00F69D54 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72948D632C6BA1EC00F69D54 /* WidgetKit.framework */; };
+		72948D662C6BA1EC00F69D54 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72948D652C6BA1EC00F69D54 /* SwiftUI.framework */; };
+		72948D692C6BA1EC00F69D54 /* SensawayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72948D682C6BA1EC00F69D54 /* SensawayWidget.swift */; };
+		72948D6B2C6BA1EC00F69D54 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72948D6A2C6BA1EC00F69D54 /* AppIntent.swift */; };
+		72948D6D2C6BA1ED00F69D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72948D6C2C6BA1ED00F69D54 /* Assets.xcassets */; };
+		72948D712C6BA1ED00F69D54 /* SensawayWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 72948D612C6BA1EC00F69D54 /* SensawayWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72DC7D622C6B368F00E05384 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DC7D612C6B368F00E05384 /* DetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7208B8072C6A58F300517823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208B7F52C6A58F200517823;
+			remoteInfo = SensawayAlert;
+		};
+		7208B8112C6A58F300517823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208B7F52C6A58F200517823;
+			remoteInfo = SensawayAlert;
+		};
+		7208B81E2C6A58F300517823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208B81B2C6A58F300517823;
+			remoteInfo = "SensawayAlert Watch App";
+		};
+		7208B82F2C6A58F300517823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208B81B2C6A58F300517823;
+			remoteInfo = "SensawayAlert Watch App";
+		};
+		7208B8392C6A58F300517823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208B81B2C6A58F300517823;
+			remoteInfo = "SensawayAlert Watch App";
+		};
+		72948D6F2C6BA1ED00F69D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7208B7EE2C6A58F100517823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72948D602C6BA1EC00F69D54;
+			remoteInfo = SensawayWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7208B8452C6A58F300517823 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7208B81D2C6A58F300517823 /* SensawayAlert Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72948D722C6BA1ED00F69D54 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72948D712C6BA1ED00F69D54 /* SensawayWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7208B7F62C6A58F200517823 /* SensawayAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensawayAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B7F92C6A58F200517823 /* SensawayAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlertApp.swift; sourceTree = "<group>"; };
+		7208B7FB2C6A58F200517823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7208B7FD2C6A58F200517823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7208B8002C6A58F200517823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7208B8062C6A58F300517823 /* SensawayAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensawayAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B80A2C6A58F300517823 /* SensawayAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlertTests.swift; sourceTree = "<group>"; };
+		7208B8102C6A58F300517823 /* SensawayAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensawayAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B8142C6A58F300517823 /* SensawayAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlertUITests.swift; sourceTree = "<group>"; };
+		7208B8162C6A58F300517823 /* SensawayAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7208B81C2C6A58F300517823 /* SensawayAlert Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensawayAlert Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B8212C6A58F300517823 /* SensawayAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlertApp.swift; sourceTree = "<group>"; };
+		7208B8232C6A58F300517823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7208B8252C6A58F300517823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7208B8282C6A58F300517823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7208B82E2C6A58F300517823 /* SensawayAlert Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SensawayAlert Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B8322C6A58F300517823 /* SensawayAlert_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlert_Watch_AppTests.swift; sourceTree = "<group>"; };
+		7208B8382C6A58F300517823 /* SensawayAlert Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SensawayAlert Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7208B83C2C6A58F300517823 /* SensawayAlert_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlert_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7208B83E2C6A58F300517823 /* SensawayAlert_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayAlert_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7208B8552C6A593C00517823 /* AlarmTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTypes.swift; sourceTree = "<group>"; };
+		7208B8592C6A5A2B00517823 /* AlarmTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTypes.swift; sourceTree = "<group>"; };
+		72948D612C6BA1EC00F69D54 /* SensawayWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SensawayWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		72948D632C6BA1EC00F69D54 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		72948D652C6BA1EC00F69D54 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		72948D682C6BA1EC00F69D54 /* SensawayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensawayWidget.swift; sourceTree = "<group>"; };
+		72948D6A2C6BA1EC00F69D54 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		72948D6C2C6BA1ED00F69D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72948D6E2C6BA1ED00F69D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DC7D612C6B368F00E05384 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7208B7F32C6A58F200517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8032C6A58F300517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B80D2C6A58F300517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8192C6A58F300517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B82B2C6A58F300517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8352C6A58F300517823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72948D5E2C6BA1EC00F69D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72948D662C6BA1EC00F69D54 /* SwiftUI.framework in Frameworks */,
+				72948D642C6BA1EC00F69D54 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7208B7ED2C6A58F100517823 = {
+			isa = PBXGroup;
+			children = (
+				7208B7F82C6A58F200517823 /* SensawayAlert */,
+				7208B8092C6A58F300517823 /* SensawayAlertTests */,
+				7208B8132C6A58F300517823 /* SensawayAlertUITests */,
+				7208B8202C6A58F300517823 /* SensawayAlert Watch App */,
+				7208B8312C6A58F300517823 /* SensawayAlert Watch AppTests */,
+				7208B83B2C6A58F300517823 /* SensawayAlert Watch AppUITests */,
+				72948D672C6BA1EC00F69D54 /* SensawayWidget */,
+				72948D622C6BA1EC00F69D54 /* Frameworks */,
+				7208B7F72C6A58F200517823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7208B7F72C6A58F200517823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7208B7F62C6A58F200517823 /* SensawayAlert.app */,
+				7208B8062C6A58F300517823 /* SensawayAlertTests.xctest */,
+				7208B8102C6A58F300517823 /* SensawayAlertUITests.xctest */,
+				7208B81C2C6A58F300517823 /* SensawayAlert Watch App.app */,
+				7208B82E2C6A58F300517823 /* SensawayAlert Watch AppTests.xctest */,
+				7208B8382C6A58F300517823 /* SensawayAlert Watch AppUITests.xctest */,
+				72948D612C6BA1EC00F69D54 /* SensawayWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7208B7F82C6A58F200517823 /* SensawayAlert */ = {
+			isa = PBXGroup;
+			children = (
+				7208B7F92C6A58F200517823 /* SensawayAlertApp.swift */,
+				7208B7FB2C6A58F200517823 /* ContentView.swift */,
+				7208B7FD2C6A58F200517823 /* Assets.xcassets */,
+				7208B7FF2C6A58F200517823 /* Preview Content */,
+				7208B8552C6A593C00517823 /* AlarmTypes.swift */,
+			);
+			path = SensawayAlert;
+			sourceTree = "<group>";
+		};
+		7208B7FF2C6A58F200517823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7208B8002C6A58F200517823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7208B8092C6A58F300517823 /* SensawayAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				7208B80A2C6A58F300517823 /* SensawayAlertTests.swift */,
+			);
+			path = SensawayAlertTests;
+			sourceTree = "<group>";
+		};
+		7208B8132C6A58F300517823 /* SensawayAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7208B8142C6A58F300517823 /* SensawayAlertUITests.swift */,
+				7208B8162C6A58F300517823 /* SensawayAlertUITestsLaunchTests.swift */,
+			);
+			path = SensawayAlertUITests;
+			sourceTree = "<group>";
+		};
+		7208B8202C6A58F300517823 /* SensawayAlert Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7208B8212C6A58F300517823 /* SensawayAlertApp.swift */,
+				7208B8232C6A58F300517823 /* ContentView.swift */,
+				7208B8592C6A5A2B00517823 /* AlarmTypes.swift */,
+				72DC7D612C6B368F00E05384 /* DetailsView.swift */,
+				7208B8252C6A58F300517823 /* Assets.xcassets */,
+				7208B8272C6A58F300517823 /* Preview Content */,
+			);
+			path = "SensawayAlert Watch App";
+			sourceTree = "<group>";
+		};
+		7208B8272C6A58F300517823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7208B8282C6A58F300517823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7208B8312C6A58F300517823 /* SensawayAlert Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7208B8322C6A58F300517823 /* SensawayAlert_Watch_AppTests.swift */,
+			);
+			path = "SensawayAlert Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7208B83B2C6A58F300517823 /* SensawayAlert Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7208B83C2C6A58F300517823 /* SensawayAlert_Watch_AppUITests.swift */,
+				7208B83E2C6A58F300517823 /* SensawayAlert_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SensawayAlert Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		72948D622C6BA1EC00F69D54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72948D632C6BA1EC00F69D54 /* WidgetKit.framework */,
+				72948D652C6BA1EC00F69D54 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72948D672C6BA1EC00F69D54 /* SensawayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				72948D682C6BA1EC00F69D54 /* SensawayWidget.swift */,
+				72948D6A2C6BA1EC00F69D54 /* AppIntent.swift */,
+				72948D6C2C6BA1ED00F69D54 /* Assets.xcassets */,
+				72948D6E2C6BA1ED00F69D54 /* Info.plist */,
+			);
+			path = SensawayWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7208B7F52C6A58F200517823 /* SensawayAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B8462C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert" */;
+			buildPhases = (
+				7208B7F22C6A58F200517823 /* Sources */,
+				7208B7F32C6A58F200517823 /* Frameworks */,
+				7208B7F42C6A58F200517823 /* Resources */,
+				7208B8452C6A58F300517823 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208B81F2C6A58F300517823 /* PBXTargetDependency */,
+			);
+			name = SensawayAlert;
+			productName = SensawayAlert;
+			productReference = 7208B7F62C6A58F200517823 /* SensawayAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7208B8052C6A58F300517823 /* SensawayAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B8492C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlertTests" */;
+			buildPhases = (
+				7208B8022C6A58F300517823 /* Sources */,
+				7208B8032C6A58F300517823 /* Frameworks */,
+				7208B8042C6A58F300517823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208B8082C6A58F300517823 /* PBXTargetDependency */,
+			);
+			name = SensawayAlertTests;
+			productName = SensawayAlertTests;
+			productReference = 7208B8062C6A58F300517823 /* SensawayAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7208B80F2C6A58F300517823 /* SensawayAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B84C2C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlertUITests" */;
+			buildPhases = (
+				7208B80C2C6A58F300517823 /* Sources */,
+				7208B80D2C6A58F300517823 /* Frameworks */,
+				7208B80E2C6A58F300517823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208B8122C6A58F300517823 /* PBXTargetDependency */,
+			);
+			name = SensawayAlertUITests;
+			productName = SensawayAlertUITests;
+			productReference = 7208B8102C6A58F300517823 /* SensawayAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7208B81B2C6A58F300517823 /* SensawayAlert Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B8422C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch App" */;
+			buildPhases = (
+				7208B8182C6A58F300517823 /* Sources */,
+				7208B8192C6A58F300517823 /* Frameworks */,
+				7208B81A2C6A58F300517823 /* Resources */,
+				72948D722C6BA1ED00F69D54 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72948D702C6BA1ED00F69D54 /* PBXTargetDependency */,
+			);
+			name = "SensawayAlert Watch App";
+			productName = "SensawayAlert Watch App";
+			productReference = 7208B81C2C6A58F300517823 /* SensawayAlert Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7208B82D2C6A58F300517823 /* SensawayAlert Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B84F2C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch AppTests" */;
+			buildPhases = (
+				7208B82A2C6A58F300517823 /* Sources */,
+				7208B82B2C6A58F300517823 /* Frameworks */,
+				7208B82C2C6A58F300517823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208B8302C6A58F300517823 /* PBXTargetDependency */,
+			);
+			name = "SensawayAlert Watch AppTests";
+			productName = "SensawayAlert Watch AppTests";
+			productReference = 7208B82E2C6A58F300517823 /* SensawayAlert Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7208B8372C6A58F300517823 /* SensawayAlert Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208B8522C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch AppUITests" */;
+			buildPhases = (
+				7208B8342C6A58F300517823 /* Sources */,
+				7208B8352C6A58F300517823 /* Frameworks */,
+				7208B8362C6A58F300517823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208B83A2C6A58F300517823 /* PBXTargetDependency */,
+			);
+			name = "SensawayAlert Watch AppUITests";
+			productName = "SensawayAlert Watch AppUITests";
+			productReference = 7208B8382C6A58F300517823 /* SensawayAlert Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		72948D602C6BA1EC00F69D54 /* SensawayWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72948D752C6BA1ED00F69D54 /* Build configuration list for PBXNativeTarget "SensawayWidgetExtension" */;
+			buildPhases = (
+				72948D5D2C6BA1EC00F69D54 /* Sources */,
+				72948D5E2C6BA1EC00F69D54 /* Frameworks */,
+				72948D5F2C6BA1EC00F69D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensawayWidgetExtension;
+			productName = SensawayWidgetExtension;
+			productReference = 72948D612C6BA1EC00F69D54 /* SensawayWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7208B7EE2C6A58F100517823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7208B7F52C6A58F200517823 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7208B8052C6A58F300517823 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7208B7F52C6A58F200517823;
+					};
+					7208B80F2C6A58F300517823 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7208B7F52C6A58F200517823;
+					};
+					7208B81B2C6A58F300517823 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7208B82D2C6A58F300517823 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7208B81B2C6A58F300517823;
+					};
+					7208B8372C6A58F300517823 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7208B81B2C6A58F300517823;
+					};
+					72948D602C6BA1EC00F69D54 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7208B7F12C6A58F100517823 /* Build configuration list for PBXProject "SensawayAlert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7208B7ED2C6A58F100517823;
+			productRefGroup = 7208B7F72C6A58F200517823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7208B7F52C6A58F200517823 /* SensawayAlert */,
+				7208B8052C6A58F300517823 /* SensawayAlertTests */,
+				7208B80F2C6A58F300517823 /* SensawayAlertUITests */,
+				7208B81B2C6A58F300517823 /* SensawayAlert Watch App */,
+				7208B82D2C6A58F300517823 /* SensawayAlert Watch AppTests */,
+				7208B8372C6A58F300517823 /* SensawayAlert Watch AppUITests */,
+				72948D602C6BA1EC00F69D54 /* SensawayWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7208B7F42C6A58F200517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B8012C6A58F200517823 /* Preview Assets.xcassets in Resources */,
+				7208B7FE2C6A58F200517823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8042C6A58F300517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B80E2C6A58F300517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B81A2C6A58F300517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B8292C6A58F300517823 /* Preview Assets.xcassets in Resources */,
+				7208B8262C6A58F300517823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B82C2C6A58F300517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8362C6A58F300517823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72948D5F2C6BA1EC00F69D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72948D6D2C6BA1ED00F69D54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7208B7F22C6A58F200517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B7FC2C6A58F200517823 /* ContentView.swift in Sources */,
+				7208B8562C6A593C00517823 /* AlarmTypes.swift in Sources */,
+				7208B7FA2C6A58F200517823 /* SensawayAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8022C6A58F300517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B80B2C6A58F300517823 /* SensawayAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B80C2C6A58F300517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B8172C6A58F300517823 /* SensawayAlertUITestsLaunchTests.swift in Sources */,
+				7208B8152C6A58F300517823 /* SensawayAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8182C6A58F300517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B8242C6A58F300517823 /* ContentView.swift in Sources */,
+				72DC7D622C6B368F00E05384 /* DetailsView.swift in Sources */,
+				7208B85A2C6A5A2B00517823 /* AlarmTypes.swift in Sources */,
+				7208B8222C6A58F300517823 /* SensawayAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B82A2C6A58F300517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B8332C6A58F300517823 /* SensawayAlert_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7208B8342C6A58F300517823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7208B83F2C6A58F300517823 /* SensawayAlert_Watch_AppUITestsLaunchTests.swift in Sources */,
+				7208B83D2C6A58F300517823 /* SensawayAlert_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72948D5D2C6BA1EC00F69D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72948D692C6BA1EC00F69D54 /* SensawayWidget.swift in Sources */,
+				72948D6B2C6BA1EC00F69D54 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7208B8082C6A58F300517823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7208B7F52C6A58F200517823 /* SensawayAlert */;
+			targetProxy = 7208B8072C6A58F300517823 /* PBXContainerItemProxy */;
+		};
+		7208B8122C6A58F300517823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7208B7F52C6A58F200517823 /* SensawayAlert */;
+			targetProxy = 7208B8112C6A58F300517823 /* PBXContainerItemProxy */;
+		};
+		7208B81F2C6A58F300517823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7208B81B2C6A58F300517823 /* SensawayAlert Watch App */;
+			targetProxy = 7208B81E2C6A58F300517823 /* PBXContainerItemProxy */;
+		};
+		7208B8302C6A58F300517823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7208B81B2C6A58F300517823 /* SensawayAlert Watch App */;
+			targetProxy = 7208B82F2C6A58F300517823 /* PBXContainerItemProxy */;
+		};
+		7208B83A2C6A58F300517823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7208B81B2C6A58F300517823 /* SensawayAlert Watch App */;
+			targetProxy = 7208B8392C6A58F300517823 /* PBXContainerItemProxy */;
+		};
+		72948D702C6BA1ED00F69D54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72948D602C6BA1EC00F69D54 /* SensawayWidgetExtension */;
+			targetProxy = 72948D6F2C6BA1ED00F69D54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7208B8402C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7208B8412C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7208B8432C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensawayAlert Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayAlert;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ebrukose.SensawayAlert;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		7208B8442C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensawayAlert Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayAlert;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ebrukose.SensawayAlert;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		7208B8472C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensawayAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayAlert;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7208B8482C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensawayAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayAlert;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7208B84A2C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensawayAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensawayAlert";
+			};
+			name = Debug;
+		};
+		7208B84B2C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensawayAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensawayAlert";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7208B84D2C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensawayAlert;
+			};
+			name = Debug;
+		};
+		7208B84E2C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensawayAlert;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7208B8502C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebrukose.SensawayAlert-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensawayAlert Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensawayAlert Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		7208B8512C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebrukose.SensawayAlert-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensawayAlert Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensawayAlert Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		7208B8532C6A58F300517823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebrukose.SensawayAlert-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SensawayAlert Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		7208B8542C6A58F300517823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebrukose.SensawayAlert-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SensawayAlert Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		72948D732C6BA1ED00F69D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SensawayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert.watchkitapp.SensawayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		72948D742C6BA1ED00F69D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SensawayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SensawayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebrukose.SensawayAlert.watchkitapp.SensawayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7208B7F12C6A58F100517823 /* Build configuration list for PBXProject "SensawayAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B8402C6A58F300517823 /* Debug */,
+				7208B8412C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B8422C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B8432C6A58F300517823 /* Debug */,
+				7208B8442C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B8462C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B8472C6A58F300517823 /* Debug */,
+				7208B8482C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B8492C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B84A2C6A58F300517823 /* Debug */,
+				7208B84B2C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B84C2C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B84D2C6A58F300517823 /* Debug */,
+				7208B84E2C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B84F2C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B8502C6A58F300517823 /* Debug */,
+				7208B8512C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208B8522C6A58F300517823 /* Build configuration list for PBXNativeTarget "SensawayAlert Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7208B8532C6A58F300517823 /* Debug */,
+				7208B8542C6A58F300517823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72948D752C6BA1ED00F69D54 /* Build configuration list for PBXNativeTarget "SensawayWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72948D732C6BA1ED00F69D54 /* Debug */,
+				72948D742C6BA1ED00F69D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7208B7EE2C6A58F100517823 /* Project object */;
+}
